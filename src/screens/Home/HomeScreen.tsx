@@ -24,21 +24,21 @@ const HomeScreen = () => {
             </Text>
           </Card>
 
-          <Card style={styles.card} onPress={() => {}}>
+          <Card style={[styles.card, styles.cardSpacing]} onPress={() => {}}>
             <Text style={styles.cardTitle}>{t('sections.stories.title')}</Text>
             <Text style={styles.cardDescription}>
               {t('sections.stories.description')}
             </Text>
           </Card>
 
-          <Card style={styles.card} onPress={() => {}}>
+          <Card style={[styles.card, styles.cardSpacing]} onPress={() => {}}>
             <Text style={styles.cardTitle}>{t('sections.games.title')}</Text>
             <Text style={styles.cardDescription}>
               {t('sections.games.description')}
             </Text>
           </Card>
 
-          <Card style={styles.card} onPress={() => {}}>
+          <Card style={[styles.card, styles.cardSpacing]} onPress={() => {}}>
             <Text style={styles.cardTitle}>{t('sections.facts.title')}</Text>
             <Text style={styles.cardDescription}>
               {t('sections.facts.description')}
@@ -73,10 +73,13 @@ const styles = StyleSheet.create({
     color: Colors.text.secondary,
   },
   sections: {
-    gap: Spacing.md,
+    // Removed gap property for Android compatibility
   },
   card: {
     padding: Spacing.lg,
+  },
+  cardSpacing: {
+    marginTop: Spacing.md,
   },
   cardTitle: {
     fontSize: Typography.fontSize.xl,
