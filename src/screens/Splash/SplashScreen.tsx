@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
-import { Colors, Typography, Spacing } from '@/config/theme';
+import React, { useEffect } from "react";
+import { View, Text, StyleSheet } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+import { Colors, Typography, Spacing } from "@/config/theme";
 
 const SplashScreen = () => {
   const navigation = useNavigation();
@@ -9,7 +9,7 @@ const SplashScreen = () => {
   useEffect(() => {
     // Navigate to main tabs after 2 seconds
     const timer = setTimeout(() => {
-      navigation.navigate('MainTabs' as never);
+      navigation.navigate("MainTabs" as never);
     }, 2000);
 
     return () => clearTimeout(timer);
@@ -26,22 +26,22 @@ const SplashScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: Colors.background.tertiary,
   },
   title: {
-    fontSize: Typography.fontSize['4xl'],
-    fontWeight: '700' as '700',
+    fontSize: Typography.fontSize["4xl"],
+    fontWeight: "700" as "700",
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
-    textAlign: 'center' as 'center',
+    textAlign: "center" as "center",
   },
   subtitle: {
     fontSize: Typography.fontSize.xl,
-    fontWeight: '600' as '600',
+    fontWeight: "600" as "600",
     color: Colors.skyBlue[600],
-    textAlign: 'center' as 'center',
+    textAlign: "center" as "center",
   },
 });
 

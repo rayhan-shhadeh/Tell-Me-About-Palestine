@@ -1,16 +1,16 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { ROUTES } from '@/config/constants';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { ROUTES } from "@/config/constants";
 
 // Screens
-import SplashScreen from '@/screens/Splash/SplashScreen';
-import HomeScreen from '@/screens/Home/HomeScreen';
-import ExploreScreen from '@/screens/Explore/ExploreScreen';
-import StoriesScreen from '@/screens/Stories/StoriesScreen';
-import GamesScreen from '@/screens/Games/GamesScreen';
-import ProgressScreen from '@/screens/Progress/ProgressScreen';
+import SplashScreen from "@/screens/Splash/SplashScreen";
+import HomeScreen from "@/screens/Home/HomeScreen";
+import ExploreScreen from "@/screens/Explore/ExploreScreen";
+import StoriesScreen from "@/screens/Stories/StoriesScreen";
+import GamesScreen from "@/screens/Games/GamesScreen";
+import ProgressScreen from "@/screens/Progress/ProgressScreen";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -31,35 +31,35 @@ const MainTabs = () => {
         name={ROUTES.HOME}
         component={HomeScreen}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: "Home",
         }}
       />
       <Tab.Screen
         name={ROUTES.EXPLORE}
         component={ExploreScreen}
         options={{
-          tabBarLabel: 'Explore',
+          tabBarLabel: "Explore",
         }}
       />
       <Tab.Screen
         name={ROUTES.STORIES}
         component={StoriesScreen}
         options={{
-          tabBarLabel: 'Stories',
+          tabBarLabel: "Stories",
         }}
       />
       <Tab.Screen
         name={ROUTES.GAMES}
         component={GamesScreen}
         options={{
-          tabBarLabel: 'Games',
+          tabBarLabel: "Games",
         }}
       />
       <Tab.Screen
         name={ROUTES.PROGRESS}
         component={ProgressScreen}
         options={{
-          tabBarLabel: 'Progress',
+          tabBarLabel: "Progress",
         }}
       />
     </Tab.Navigator>
