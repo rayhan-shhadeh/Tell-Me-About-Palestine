@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   message: {
     marginTop: Spacing.md,
     fontSize: Typography.fontSize.base,
-    fontWeight: '400' as '400',
+    fontWeight: '400',
     color: Colors.text.secondary,
-  },
+  } as const,
 });
 
 export default Loading;

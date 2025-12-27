@@ -16,7 +16,7 @@ const HomeScreen = () => {
           <Text style={styles.greeting}>{t('greeting.morning')}</Text>
         </View>
 
-        <View style={styles.sections}>
+        <View>
           <Card style={styles.card} onPress={() => {}}>
             <Text style={styles.cardTitle}>{t('sections.explore.title')}</Text>
             <Text style={styles.cardDescription}>
@@ -63,18 +63,15 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['3xl'],
-    fontWeight: '700' as '700',
+    fontWeight: '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.xs,
-  },
+  } as const,
   greeting: {
     fontSize: Typography.fontSize.lg,
-    fontWeight: '400' as '400',
+    fontWeight: '400',
     color: Colors.text.secondary,
-  },
-  sections: {
-    // Removed gap property for Android compatibility
-  },
+  } as const,
   card: {
     padding: Spacing.lg,
   },
@@ -83,15 +80,15 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontSize: Typography.fontSize.xl,
-    fontWeight: '700' as '700',
+    fontWeight: '700',
     color: Colors.text.primary,
     marginBottom: Spacing.xs,
-  },
+  } as const,
   cardDescription: {
     fontSize: Typography.fontSize.base,
-    fontWeight: '400' as '400',
+    fontWeight: '400',
     color: Colors.text.secondary,
-  },
+  } as const,
 });
 
 export default HomeScreen;

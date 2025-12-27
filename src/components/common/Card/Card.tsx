@@ -19,8 +19,7 @@ export const Card: React.FC<CardProps> = ({
 }) => {
   const cardStyles = [
     styles.card,
-    styles[`card_${variant}`],
-    { padding: Spacing[padding] },
+    styles[`card_${variant}`] as any,
     style,
   ];
 
