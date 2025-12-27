@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize.base,
     fontWeight: '400',
     color: Colors.text.secondary,
-  } as const,
+  },
 });
 
 export default Loading;

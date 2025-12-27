@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize["3xl"],
     fontWeight: "700",
     color: Colors.oliveGreen[700],
-  } as const,
+  },
 });
 
 export default ProgressScreen;

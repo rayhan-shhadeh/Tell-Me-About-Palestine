@@ -66,12 +66,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.xs,
-  } as const,
+  },
   greeting: {
     fontSize: Typography.fontSize.lg,
     fontWeight: '400',
     color: Colors.text.secondary,
-  } as const,
+  },
   card: {
     padding: Spacing.lg,
   },
@@ -83,12 +83,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: Colors.text.primary,
     marginBottom: Spacing.xs,
-  } as const,
+  },
   cardDescription: {
     fontSize: Typography.fontSize.base,
     fontWeight: '400',
     color: Colors.text.secondary,
-  } as const,
+  },
 });
 
 export default HomeScreen;

@@ -36,13 +36,13 @@ const styles = StyleSheet.create({
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
     textAlign: "center",
-  } as const,
+  },
   subtitle: {
     fontSize: Typography.fontSize.xl,
     fontWeight: "600",
     color: Colors.skyBlue[600],
     textAlign: "center",
-  } as const,
+  },
 });
 
 export default SplashScreen;

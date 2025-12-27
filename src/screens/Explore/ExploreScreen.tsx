@@ -33,13 +33,13 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
-  } as const,
+  },
   subtitle: {
     fontSize: Typography.fontSize.base,
     fontWeight: '400',
     color: Colors.text.secondary,
     textAlign: 'center',
-  } as const,
+  },
 });
 
 export default ExploreScreen;

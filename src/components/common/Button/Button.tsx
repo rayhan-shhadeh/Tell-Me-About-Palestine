@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: '700',
     textAlign: 'center',
-  } as const,
+  },
   text_primary: {
     color: Colors.white,
   },
