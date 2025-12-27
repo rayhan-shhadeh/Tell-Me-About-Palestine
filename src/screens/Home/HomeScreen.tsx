@@ -63,13 +63,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['3xl'],
-    fontWeight: '700',
+    fontWeight: '700' as '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.xs,
   },
   greeting: {
     fontSize: Typography.fontSize.lg,
-    fontWeight: '400',
+    fontWeight: '400' as '400',
     color: Colors.text.secondary,
   },
   sections: {
@@ -80,13 +80,13 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontSize: Typography.fontSize.xl,
-    fontWeight: '700',
+    fontWeight: '700' as '700',
     color: Colors.text.primary,
     marginBottom: Spacing.xs,
   },
   cardDescription: {
     fontSize: Typography.fontSize.base,
-    fontWeight: '400',
+    fontWeight: '400' as '400',
     color: Colors.text.secondary,
   },
 });

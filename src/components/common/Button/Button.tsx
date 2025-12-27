@@ -118,8 +118,8 @@ const styles = StyleSheet.create({
 
   // Text Styles
   text: {
-    fontWeight: '700',
-    textAlign: 'center',
+    fontWeight: '700' as '700',
+    textAlign: 'center' as 'center',
   },
   text_primary: {
     color: Colors.white,

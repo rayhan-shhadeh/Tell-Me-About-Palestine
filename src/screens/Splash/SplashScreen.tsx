@@ -32,16 +32,16 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['4xl'],
-    fontWeight: '700',
+    fontWeight: '700' as '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
-    textAlign: 'center',
+    textAlign: 'center' as 'center',
   },
   subtitle: {
     fontSize: Typography.fontSize.xl,
-    fontWeight: '600',
+    fontWeight: '600' as '600',
     color: Colors.skyBlue[600],
-    textAlign: 'center',
+    textAlign: 'center' as 'center',
   },
 });
 

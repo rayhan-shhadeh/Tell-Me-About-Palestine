@@ -30,15 +30,15 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['3xl'],
-    fontWeight: '700',
+    fontWeight: '700' as '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
   },
   subtitle: {
     fontSize: Typography.fontSize.base,
-    fontWeight: '400',
+    fontWeight: '400' as '400',
     color: Colors.text.secondary,
-    textAlign: 'center',
+    textAlign: 'center' as 'center',
   },
 });
 
