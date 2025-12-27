@@ -32,14 +32,14 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['4xl'],
-    fontFamily: Typography.fontFamily.arBold,
+    fontWeight: '700',
     color: Colors.oliveGreen[700],
     marginBottom: Spacing.sm,
     textAlign: 'center',
   },
   subtitle: {
     fontSize: Typography.fontSize.xl,
-    fontFamily: Typography.fontFamily.enSemiBold,
+    fontWeight: '600',
     color: Colors.skyBlue[600],
     textAlign: 'center',
   },

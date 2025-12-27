@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
 
   // Text Styles
   text: {
-    fontFamily: Typography.fontFamily.enBold,
+    fontWeight: '700',
     textAlign: 'center',
   },
   text_primary: {

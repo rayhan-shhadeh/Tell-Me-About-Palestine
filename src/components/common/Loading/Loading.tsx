@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   message: {
     marginTop: Spacing.md,
     fontSize: Typography.fontSize.base,
-    fontFamily: Typography.fontFamily.enRegular,
+    fontWeight: '400',
     color: Colors.text.secondary,
   },
 });

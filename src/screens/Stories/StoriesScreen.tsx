@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: Typography.fontSize['3xl'],
-    fontFamily: Typography.fontFamily.enBold,
+    fontWeight: '700',
     color: Colors.oliveGreen[700],
   },
 });
