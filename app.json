@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Tell Me About Palestine",
+    "slug": "tell-me-about-palestine",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "tmaboutpalestine",
+    "platforms": ["ios", "android"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E8F4E8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.palestine.education",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "NSCameraUsageDescription": "This app does not use the camera",
+        "NSMicrophoneUsageDescription": "This app does not use the microphone"
+      }
+    },
+    "android": {
+      "package": "com.palestine.education",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E8F4E8"
+      },
+      "permissions": [],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "appName": "Tell Me About Palestine",
+      "appNameAr": "احكيلي عن فلسطين",
+      "supportedLanguages": ["en", "ar"]
+    }
+  }
+}

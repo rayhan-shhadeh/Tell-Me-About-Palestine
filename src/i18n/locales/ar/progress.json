@@ -1,0 +1,35 @@
+{
+  "title": "تقدمي",
+  "level": "المستوى {{level}}",
+  "points": "{{points}} نقطة",
+  "stats": {
+    "storiesRead": "قصص مقروءة",
+    "gamesPlayed": "ألعاب لعبت",
+    "locationsExplored": "أماكن مستكشفة",
+    "timeSpent": "الوقت المستغرق",
+    "achievementsUnlocked": "الإنجازات"
+  },
+  "achievements": {
+    "title": "الإنجازات",
+    "viewAll": "عرض الكل",
+    "locked": "مقفل",
+    "unlocked": "مفتوح",
+    "new": "جديد!",
+    "rarity": {
+      "common": "عادي",
+      "rare": "نادر",
+      "epic": "ملحمي",
+      "legendary": "أسطوري"
+    }
+  },
+  "badges": {
+    "title": "شاراتي",
+    "collected": "{{count}} / {{total}} تم جمعها"
+  },
+  "dailyStreak": {
+    "title": "سلسلة يومية",
+    "days": "{{count}} يوم",
+    "days_plural": "{{count}} أيام",
+    "keepGoing": "استمر!"
+  }
+}

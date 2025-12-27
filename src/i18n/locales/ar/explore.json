@@ -1,0 +1,18 @@
+{
+  "title": "استكشف فلسطين",
+  "subtitle": "اضغط على أي موقع لتعرف المزيد",
+  "categories": {
+    "all": "الكل",
+    "cities": "المدن",
+    "landmarks": "المعالم",
+    "nature": "الطبيعة",
+    "villages": "القرى"
+  },
+  "location": {
+    "viewDetails": "عرض التفاصيل",
+    "funFacts": "حقائق ممتعة",
+    "relatedStories": "قصص ذات صلة",
+    "gallery": "معرض الصور",
+    "audioGuide": "دليل صوتي"
+  }
+}

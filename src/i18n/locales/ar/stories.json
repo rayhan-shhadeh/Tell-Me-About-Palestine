@@ -1,0 +1,30 @@
+{
+  "title": "القصص",
+  "categories": {
+    "all": "كل القصص",
+    "history": "التاريخ",
+    "culture": "الثقافة",
+    "dailyLife": "الحياة اليومية",
+    "nature": "الطبيعة",
+    "heritage": "التراث"
+  },
+  "filters": {
+    "age": "الفئة العمرية",
+    "category": "الفئة",
+    "length": "طول القصة"
+  },
+  "storyCard": {
+    "readTime": "{{minutes}} دقيقة قراءة",
+    "listenTime": "{{minutes}} دقيقة استماع",
+    "read": "اقرأ القصة",
+    "listen": "استمع للقصة"
+  },
+  "reader": {
+    "autoPlay": "تشغيل تلقائي",
+    "nextPage": "الصفحة التالية",
+    "previousPage": "الصفحة السابقة",
+    "closeBook": "إغلاق الكتاب",
+    "bookmark": "إضافة علامة",
+    "share": "مشاركة"
+  }
+}

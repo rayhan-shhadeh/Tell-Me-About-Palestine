@@ -1,0 +1,18 @@
+{
+  "title": "Explore Palestine",
+  "subtitle": "Tap on any location to learn more",
+  "categories": {
+    "all": "All",
+    "cities": "Cities",
+    "landmarks": "Landmarks",
+    "nature": "Nature",
+    "villages": "Villages"
+  },
+  "location": {
+    "viewDetails": "View Details",
+    "funFacts": "Fun Facts",
+    "relatedStories": "Related Stories",
+    "gallery": "Photo Gallery",
+    "audioGuide": "Audio Guide"
+  }
+}

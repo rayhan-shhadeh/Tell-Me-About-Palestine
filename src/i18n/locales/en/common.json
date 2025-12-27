@@ -1,0 +1,75 @@
+{
+  "app": {
+    "name": "Tell Me About Palestine",
+    "tagline": "Discover Palestine through stories, games, and adventure!"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "start": "Start",
+    "play": "Play",
+    "listen": "Listen",
+    "read": "Read",
+    "explore": "Explore",
+    "done": "Done",
+    "skip": "Skip",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "navigation": {
+    "home": "Home",
+    "explore": "Explore",
+    "stories": "Stories",
+    "games": "Games",
+    "progress": "My Progress",
+    "music": "Music"
+  },
+  "mascots": {
+    "oliveTree": {
+      "name": "Zaytoun",
+      "greeting": "Hello! I'm Zaytoun the Olive Tree!",
+      "hint": "Tap on me for hints!",
+      "celebrate": "Amazing job!",
+      "encourage": "You're doing great! Keep going!"
+    },
+    "explorer": {
+      "name": "Noor",
+      "greeting": "Hi! I'm Noor, let's explore together!",
+      "hint": "Need help? I'm here!",
+      "celebrate": "Wow! You're amazing!",
+      "encourage": "I believe in you!"
+    },
+    "bird": {
+      "name": "Huda",
+      "greeting": "Tweet! I'm Huda, your guide!",
+      "hint": "Follow me!",
+      "celebrate": "Fantastic!",
+      "encourage": "You can do it!"
+    }
+  },
+  "errors": {
+    "general": "Oops! Something went wrong.",
+    "network": "No internet connection. Don't worry, you can still explore!",
+    "loading": "Loading...",
+    "retry": "Let's try again!"
+  },
+  "offline": {
+    "message": "You're offline, but you can still explore!",
+    "sync": "We'll sync when you're back online"
+  },
+  "achievements": {
+    "unlocked": "Achievement Unlocked!",
+    "new": "New Badge!",
+    "viewAll": "View All Achievements"
+  },
+  "time": {
+    "minutes": "{{count}} minute",
+    "minutes_plural": "{{count}} minutes",
+    "hours": "{{count}} hour",
+    "hours_plural": "{{count}} hours"
+  }
+}

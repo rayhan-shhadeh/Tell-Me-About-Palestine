@@ -1,0 +1,35 @@
+{
+  "title": "My Progress",
+  "level": "Level {{level}}",
+  "points": "{{points}} Points",
+  "stats": {
+    "storiesRead": "Stories Read",
+    "gamesPlayed": "Games Played",
+    "locationsExplored": "Places Explored",
+    "timeSpent": "Time Spent",
+    "achievementsUnlocked": "Achievements"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "viewAll": "View All",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "new": "New!",
+    "rarity": {
+      "common": "Common",
+      "rare": "Rare",
+      "epic": "Epic",
+      "legendary": "Legendary"
+    }
+  },
+  "badges": {
+    "title": "My Badges",
+    "collected": "{{count}} / {{total}} collected"
+  },
+  "dailyStreak": {
+    "title": "Daily Streak",
+    "days": "{{count}} day",
+    "days_plural": "{{count}} days",
+    "keepGoing": "Keep it up!"
+  }
+}

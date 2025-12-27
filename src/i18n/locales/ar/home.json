@@ -1,0 +1,44 @@
+{
+  "welcome": "مرحباً بعودتك، {{name}}!",
+  "greeting": {
+    "morning": "صباح الخير!",
+    "afternoon": "مساء الخير!",
+    "evening": "مساء الخير!"
+  },
+  "sections": {
+    "explore": {
+      "title": "استكشف فلسطين",
+      "description": "اكتشف المدن والمعالم والأماكن الجميلة"
+    },
+    "stories": {
+      "title": "القصص",
+      "description": "اقرأ قصصاً رائعة عن فلسطين"
+    },
+    "games": {
+      "title": "ألعاب ممتعة",
+      "description": "العب وتعلم في نفس الوقت"
+    },
+    "facts": {
+      "title": "حقائق ممتعة",
+      "description": "تعلم حقائق مثيرة عن فلسطين"
+    },
+    "music": {
+      "title": "الموسيقى والأصوات",
+      "description": "استمع إلى الموسيقى الفلسطينية الجميلة"
+    },
+    "progress": {
+      "title": "تقدمي",
+      "description": "شاهد ما تعلمته وأنجزته"
+    }
+  },
+  "dailyChallenge": {
+    "title": "التحدي اليومي",
+    "description": "أكمل تحدي اليوم!",
+    "complete": "تم إكمال التحدي!",
+    "reward": "+{{points}} نقطة"
+  },
+  "continueReading": {
+    "title": "تابع القراءة",
+    "subtitle": "تابع من حيث توقفت"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Stories",
+  "categories": {
+    "all": "All Stories",
+    "history": "History",
+    "culture": "Culture",
+    "dailyLife": "Daily Life",
+    "nature": "Nature",
+    "heritage": "Heritage"
+  },
+  "filters": {
+    "age": "Age Group",
+    "category": "Category",
+    "length": "Story Length"
+  },
+  "storyCard": {
+    "readTime": "{{minutes}} min read",
+    "listenTime": "{{minutes}} min listen",
+    "read": "Read Story",
+    "listen": "Listen to Story"
+  },
+  "reader": {
+    "autoPlay": "Auto Play",
+    "nextPage": "Next Page",
+    "previousPage": "Previous Page",
+    "closeBook": "Close Book",
+    "bookmark": "Bookmark",
+    "share": "Share"
+  }
+}

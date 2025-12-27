@@ -1,0 +1,38 @@
+{
+  "title": "Fun Games",
+  "categories": {
+    "all": "All Games",
+    "memory": "Memory Games",
+    "puzzle": "Puzzles",
+    "quiz": "Quizzes",
+    "coloring": "Coloring",
+    "wordSearch": "Word Search"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "gameCard": {
+    "play": "Play Now",
+    "playTime": "~{{minutes}} min",
+    "reward": "+{{points}} points"
+  },
+  "gameplay": {
+    "score": "Score",
+    "timer": "Time",
+    "moves": "Moves",
+    "pause": "Pause",
+    "resume": "Resume",
+    "restart": "Restart",
+    "quit": "Quit Game"
+  },
+  "results": {
+    "victory": "Great Job!",
+    "completed": "Game Completed!",
+    "score": "Your Score: {{score}}",
+    "newHighScore": "New High Score!",
+    "playAgain": "Play Again",
+    "backToGames": "Back to Games"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "welcome": "Welcome back, {{name}}!",
+  "greeting": {
+    "morning": "Good morning!",
+    "afternoon": "Good afternoon!",
+    "evening": "Good evening!"
+  },
+  "sections": {
+    "explore": {
+      "title": "Explore Palestine",
+      "description": "Discover cities, landmarks, and beautiful places"
+    },
+    "stories": {
+      "title": "Stories",
+      "description": "Read amazing stories about Palestine"
+    },
+    "games": {
+      "title": "Fun Games",
+      "description": "Play and learn at the same time"
+    },
+    "facts": {
+      "title": "Fun Facts",
+      "description": "Learn interesting facts about Palestine"
+    },
+    "music": {
+      "title": "Music & Sounds",
+      "description": "Listen to beautiful Palestinian music"
+    },
+    "progress": {
+      "title": "My Progress",
+      "description": "See what you've learned and achieved"
+    }
+  },
+  "dailyChallenge": {
+    "title": "Daily Challenge",
+    "description": "Complete today's challenge!",
+    "complete": "Challenge Completed!",
+    "reward": "+{{points}} points"
+  },
+  "continueReading": {
+    "title": "Continue Reading",
+    "subtitle": "Pick up where you left off"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "ألعاب ممتعة",
+  "categories": {
+    "all": "كل الألعاب",
+    "memory": "ألعاب الذاكرة",
+    "puzzle": "الألغاز",
+    "quiz": "الاختبارات",
+    "coloring": "التلوين",
+    "wordSearch": "البحث عن الكلمات"
+  },
+  "difficulty": {
+    "easy": "سهل",
+    "medium": "متوسط",
+    "hard": "صعب"
+  },
+  "gameCard": {
+    "play": "العب الآن",
+    "playTime": "~{{minutes}} دقيقة",
+    "reward": "+{{points}} نقطة"
+  },
+  "gameplay": {
+    "score": "النتيجة",
+    "timer": "الوقت",
+    "moves": "الحركات",
+    "pause": "إيقاف مؤقت",
+    "resume": "استئناف",
+    "restart": "إعادة البدء",
+    "quit": "إنهاء اللعبة"
+  },
+  "results": {
+    "victory": "عمل رائع!",
+    "completed": "اكتملت اللعبة!",
+    "score": "نتيجتك: {{score}}",
+    "newHighScore": "رقم قياسي جديد!",
+    "playAgain": "العب مرة أخرى",
+    "backToGames": "العودة إلى الألعاب"
+  }
+}
